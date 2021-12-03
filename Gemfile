@@ -9,6 +9,7 @@ gem 'bcrypt', '~> 3.1.12'
 # Use sqlite3 as the database for Active Record
 
 gem 'bootstrap-sass', '3.3.7'
+gem 'jquery-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -43,6 +44,7 @@ group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-rails'
 end
 
 group :development do
