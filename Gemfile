@@ -7,6 +7,8 @@ ruby '2.7.4'
 gem 'rails', '~> 5.2.0'
 gem 'bcrypt', '~> 3.1.12'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
@@ -74,6 +76,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
